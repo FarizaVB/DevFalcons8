@@ -1,0 +1,13 @@
+SELECT name, account.name, account.industry FROM Contact where account.industry = 'Energy'
+
+select id, name,priority__c, subject__c, salesforce_project__r.project_name__c, salesforce_project__r.status__c from salesforce_ticket__c
+
+select id, name,(select lastname from contacts limit1) from account
+
+
+//from precise video examples:
+//1
+select id, name, amount, stageName, account.industry, account.name from opportunity where stageName != 'closed Won' and stageName !='Closed Lost'
+
+//2
+select id, name, subject__c, status__c, priority__c, Salesforce_Project__r.name, salesforce_project__r.project_name__c from salesforce_ticket__c where Salesforce_Project__r.status__c = 'New'

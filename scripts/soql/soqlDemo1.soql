@@ -1,0 +1,9 @@
+Select id, name from Account
+
+select id, Name, MailingCity from Contact WHERE MailingCity = 'Paris'
+
+Select id, Name, Birthdate, MailingCity, MailingCountry from Contact WHERE Name LIKE '%A%'
+
+SELECT Id, Name, Phone FROM Account WHERE (phone !=NULL or website !=null) and accountNumber !=null
+
+

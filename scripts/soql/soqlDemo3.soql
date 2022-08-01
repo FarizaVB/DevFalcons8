@@ -1,0 +1,5 @@
+select count () from contact
+
+select sum(amount) from Opportunity where isclosed = false and Probability > 60
+
+select name, count(id) from account group by name having count(id) > 0
