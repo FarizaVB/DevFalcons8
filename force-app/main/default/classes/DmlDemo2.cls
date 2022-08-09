@@ -40,7 +40,7 @@ public class DmlDemo2 {
         a.name = 'bulk acc 1';
         listacc.add(a);
         account a1 = new account();
-        a1.name ='bulk acc 1';
+        a1.name ='bulk acc 2';
         listacc.add(a1);
 
         account a2 = new account();
